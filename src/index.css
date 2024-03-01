@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* animations */
+
+.newItemAnim{
+    animation: scale 0.3s;
+}
+
+@keyframes scale{
+    to{
+        transform: scale(1.1);
+    }
+}
